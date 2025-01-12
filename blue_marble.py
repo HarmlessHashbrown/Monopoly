@@ -2,6 +2,7 @@ import turtle
 import time
 from PIL import Image, ImageTk
 import random
+"test"
 '''
 [game_stadium  function description]
 it makes up the base board of the game and includes how the
