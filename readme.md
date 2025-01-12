@@ -22,5 +22,7 @@ This programs is the recreation of the game called Blue marble as known as Monop
 ![image](https://github.com/user-attachments/assets/bb56f763-59d5-436f-9ed5-6bc3197ce9fb)
 ### 은행
 ![image](https://github.com/user-attachments/assets/dde67a87-d954-4d6a-b9c2-722565b39cb7)
+
 ### 카드
+Every time a player lands on a city, they get a a card to pop up on their screen asking whether they would like to buy this land. The player can receive information sabout its cost and its earns every time another player steps on their land.
 ![image](https://github.com/user-attachments/assets/fecb2a3b-184b-4dd4-8470-a675f967db6a)
