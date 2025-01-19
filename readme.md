@@ -1,4 +1,4 @@
-# Monopoly(Kr . Version)
+![image](https://github.com/user-attachments/assets/5d1487ab-bab6-4257-b0a4-50669999f6af)# Monopoly(Kr . Version)
 This programs is the recreation of the game called Blue marble as known as Monopoly for english speakers. I made this program as monopoly is one of my favorite board game yet has a big disadvantage of being to big to bring around. To solve this I wanted to make this on computer as it takes up less space and weight to bring around.
 
 ## Periods of Development
@@ -10,8 +10,17 @@ This programs is the recreation of the game called Blue marble as known as Monop
 ## Core Features
 ### 말이 움직이는 방법
 ![image](https://github.com/user-attachments/assets/35565fc2-44f6-49d8-91ed-b4e05c24e4a7)
-![image](https://github.com/user-attachments/assets/79b646d0-f774-4be3-ae01-fbac5b164270)
-![image](https://github.com/user-attachments/assets/abee3c51-800f-4486-a3d2-4fed4aa62bb9)
+When the roll button is clicked, it opperates the dice code which sends its value(in this case a 5)to the character function, the character function then adds the current value of the dice and the previous value from player info. When the total amount exeeds the multiples of 7 it makes a turn allowing it to move in a square direction.
+![image](https://github.com/user-attachments/assets/85846204-48d7-4aa1-9ca7-7c242b81e4e6)
+
+
+
+<div style="display: flex; justify-content: space-around;">
+
+  <img src='https://github.com/user-attachments/assets/6fea9deb-71cd-43a4-8c38-764fb30c62e9)' width='500px' height='150px'/>
+  <img src='https://github.com/user-attachments/assets/abee3c51-800f-4486-a3d2-4fed4aa62bb9' width='500px' height='150px'/>
+</div>
+
 
 ### 자유여행
 ![image](https://github.com/user-attachments/assets/08a817f7-18b5-44f1-997e-3270a6bf344b)
