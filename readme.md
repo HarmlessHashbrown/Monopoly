@@ -27,11 +27,16 @@ Whenever the character makes a full turn: the player info, which contains the in
 ![image](https://github.com/user-attachments/assets/7a69c97e-1e5e-4ddb-bb57-99a52dc1dd10)
 When the players total movement is 21 characters calls the travel_select function which then pops up this image asking if the player wants to travel to a selected country.
 ![image](https://github.com/user-attachments/assets/08a817f7-18b5-44f1-997e-3270a6bf344b)
-When the player does select yes, then the travel_select function calls the travel (continue)
+When the player does select yes, then the travel_select function calls the travel function which draws a white square indicating to click on a land that the player wants to goto. While that happens the travel_select function also calls the fider function which has the information about which coordinates the countries, calls the character function and tells where the player has to goto.
 ### 무인도
-![image](https://github.com/user-attachments/assets/47bbef27-9478-4ec1-bb29-77754be736fd)
-![image](https://github.com/user-attachments/assets/4b0f891e-dc84-47c7-875f-2abed021d5fa)
-![image](https://github.com/user-attachments/assets/bb56f763-59d5-436f-9ed5-6bc3197ce9fb)
+<div style='display:flex; justify-content:center'>
+  <img src ='https://github.com/user-attachments/assets/47bbef27-9478-4ec1-bb29-77754be736fd' width='500px' height='500px'/>
+  <div style='display:flex; justify-content:center flex-direction:column'>
+    <img src ='https://github.com/user-attachments/assets/4b0f891e-dc84-47c7-875f-2abed021d5fa' width='500px' height='200px'/>
+    <img src ='https://github.com/user-attachments/assets/bb56f763-59d5-436f-9ed5-6bc3197ce9fb' width='500px' height='200px'/>
+  </div>
+</div>
+This photo shows what happens when the player arives to the "Islands" land. When the player's total movement becomes 7 the characters detects that and calls the islands function. The islands function then changes the "playerinfo[islands]" into 3 making indicating that the players stuck there for 3 rounds. To make this visual, the islands function calls the rest function which visually shows the "playerinfo[islands]" visually with the players colour to show which player is stuck there. Also as the turn goes by, each rotation back to teh player in the (CONTINUE)
 ### 은행
 ![image](https://github.com/user-attachments/assets/dde67a87-d954-4d6a-b9c2-722565b39cb7)
 
